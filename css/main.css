@@ -1,11 +1,170 @@
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: aliceblue;
-    color: white;
+/* DEVELOPER: Aleen Ponce, IS117-002, Spring 2026 */
+
+body {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #16213e !important;
+}
+
+.nav-link:hover {
+    color: #00b4d8 !important;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.title-underline {
+    width: 40px;
+    height: 3px;
+    background-color: #00b4d8;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #16213e;
+    border-top: 2px solid #0f3460;
+    padding: 30px 0;
+    font-size: 0.85rem;
+    color: #888;
+}
+
+footer a {
+    color: #888;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+footer a:hover {
+    color: #00b4d8;
+}
+
+.hero {
+    background-color: #16213e;
+    padding: 80px 0;
     text-align: center;
-    padding: 10px;
-    font-size: 0.5rem;
+    border-bottom: 3px solid #00b4d8;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero h1 span {
+    color: #00b4d8;
+}
+
+.hero p {
+    color: #aaa;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.about-section {
+    padding: 60px 0;
+    background-color: #1a1a2e;
+}
+
+.about-section p {
+    color: #bbb;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.skills-section {
+    padding: 60px 0;
+    background-color: #16213e;
+}
+
+.skill-badge {
+    display: inline-block;
+    background-color: #0f3460;
+    color: #00b4d8;
+    border: 1px solid #00b4d8;
+    border-radius: 6px;
+    padding: 6px 14px;
+    margin: 5px;
+    font-size: 0.9rem;
+}
+
+.projects-section {
+    padding: 60px 0;
+    background-color: #1a1a2e;
+}
+
+.card {
+    background-color: #16213e;
+    border: 1px solid #0f3460;
+    color: #e0e0e0;
+    height: 100%;
+}
+
+.card-title {
+    color: #00b4d8;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #bbb;
+    font-size: 0.9rem;
+}
+
+.card a {
+    color: #00b4d8;
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.page-header {
+    background-color: #16213e;
+    padding: 40px 0;
+    border-bottom: 3px solid #00b4d8;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.page-header p {
+    color: #aaa;
+    font-size: 1rem;
+}
+
+.contact-section {
+    padding: 60px 0;
+}
+
+.form-label {
+    color: #ccc;
+    font-size: 0.95rem;
+}
+
+.form-control {
+    background-color: #16213e;
+    border: 1px solid #0f3460;
+    color: #e0e0e0;
+}
+
+.form-control:focus {
+    background-color: #16213e;
+    border-color: #00b4d8;
+    color: #e0e0e0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 180, 216, 0.2);
+}
+
+.form-check-label {
+    color: #ccc;
 }
