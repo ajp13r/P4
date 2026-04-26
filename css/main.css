@@ -4,6 +4,60 @@ body {
     background-color: #1a1a2e;
     color: #e0e0e0;
     font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+section {
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+aside {
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+@media (max-width: 575px) {
+    body {
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 0.95rem;
+    }
+
+    .section-title {
+        font-size: 1.4rem;
+    }
+
+    .page-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .page-header p {
+        font-size: 0.9rem;
+    }
+
+    .skill-badge {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.4rem;
+    }
+
+    .section-title {
+        font-size: 1.6rem;
+    }
 }
 
 .navbar {
@@ -167,4 +221,10 @@ footer a:hover {
 
 .form-check-label {
     color: #ccc;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
 }
