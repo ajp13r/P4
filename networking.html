@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IoT Project</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">AP</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact.html">Contact</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="web.html">Web</a></li>
+                            <li><a class="dropdown-item" href="networking.html">IoT</a></li>
+                            <li><a class="dropdown-item" href="game.html">Game</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Room Status Detector</h1>
+            <p>A look at my IoT project.</p>
+        </div>
+    </div>
+
+
+    <section class="about-section">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-7">
+                    <div class="section-title">Project Overview</div>
+                    <div class="title-underline"></div>
+                    <p>
+                        IoT device that detects whether a room is occupied or not using a sonic sensor and an Arduino microcontroller.
+                        It is connected to discord api and sends a message to a discord channel whenever the room status changes.
+                    </p>
+                    <div class="section-title mt-5">Technologies Used</div>
+                    <div class="title-underline"></div>
+                    <div>
+                        <span class="skill-badge">Breadboard</span>
+                        <span class="skill-badge">Arduino</span>
+                        <span class="skill-badge">Sonic Sensor</span>
+                        <span class="skill-badge">Discord API</span>
+                    </div>
+
+                    <div class="section-title mt-5">What I Learned</div>
+                    <div class="title-underline"></div>
+                    <p>
+                        This project taught me how to work with IoT devices and sensors, as well as how to use the Arduino platform for prototyping. 
+                        I also gained experience with integrating hardware with software by connecting the Arduino to the Discord API. 
+                        Overall, this project helped me develop my skills in both hardware and software development, and gave me a better understanding of how IoT devices can be used in real-world applications.
+                    </p>
+                </div>
+
+
+                <div class="col-md-5">
+                    <div class="section-title">Project Screenshot</div>
+                    <div class="title-underline"></div>
+                    <img src="img/IoTSensor.png" alt="Screenshot of my web development project"
+                        class="img-fluid rounded" style="border: 1px solid #0f3460;">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <div class="mb-2">
+                <a href="../index.html">Home</a>
+                <a href="../about.html">About</a>
+                <a href="../contact.html">Contact</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy</a>
+            </div>
+            <p class="mb-1">&copy; Aleen Ponce, IS117-002, Spring 2026.</p>
+        </div>
+    </footer>
+
+
+    <!-- Javascript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
